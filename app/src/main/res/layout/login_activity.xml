@@ -74,6 +74,7 @@
                 android:layout_height="15dp"/>
 
             <Button
+                android:id="@+id/btn_login"
                 android:foreground="?android:selectableItemBackground"
                 android:textColor="#f2f2f2"
                 android:text="log in"
