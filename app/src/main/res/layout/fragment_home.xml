@@ -1,7 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="@android:color/holo_red_light">
+    android:background="@color/light_gray">
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:background="@color/white_smoke"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:hint="Search for a Product"
+            android:singleLine="true"
+            android:drawablePadding="5dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:drawableStart="@drawable/ic_search_black_24dp"
+            android:background="@drawable/search_bar"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <HorizontalScrollView
+            android:scrollbars="none"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:foreground="?android:selectableItemBackground"
+                    android:paddingHorizontal="10dp"
+                    android:text="Cardiology"
+                    android:background="@color/white_smoke"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"/>
+
+                <Button
+                    android:foreground="?android:selectableItemBackground"
+                    android:paddingHorizontal="10dp"
+                    android:text="Dental Medicine"
+                    android:background="@color/white_smoke"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"/>
+
+                <Button
+                    android:foreground="?android:selectableItemBackground"
+                    android:paddingHorizontal="10dp"
+                    android:text="Dermatology"
+                    android:background="@color/white_smoke"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"/>
+
+                <Button
+                    android:foreground="?android:selectableItemBackground"
+                    android:paddingHorizontal="10dp"
+                    android:text="Emergency Medicine"
+                    android:background="@color/white_smoke"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"/>
+
+                <Button
+                    android:foreground="?android:selectableItemBackground"
+                    android:paddingHorizontal="10dp"
+                    android:text="Neurology"
+                    android:background="@color/white_smoke"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"/>
+
+                <Button
+                    android:foreground="?android:selectableItemBackground"
+                    android:paddingHorizontal="10dp"
+                    android:text="Oncology"
+                    android:background="@color/white_smoke"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"

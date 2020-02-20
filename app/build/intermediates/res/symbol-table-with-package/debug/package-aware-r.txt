@@ -658,6 +658,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color light_gray
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -720,6 +721,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color white_smoke
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1041,6 +1043,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_account_circle_black_24dp
+drawable ic_cloud_download_black_24dp
 drawable ic_feed_black_24dp
 drawable ic_home_black_24dp
 drawable ic_launcher_background
@@ -1048,6 +1051,7 @@ drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_search_black_24dp
 drawable ic_shopping_cart_black_24dp
 drawable login_box
 drawable login_button
@@ -1067,6 +1071,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable search_bar
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
