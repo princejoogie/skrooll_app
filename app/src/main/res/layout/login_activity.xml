@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/app_background"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#f2f2f2"
+            android:textAlignment="center"
+            android:text="SKROOLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <LinearLayout
+            android:padding="20dp"
+            android:gravity="center"
+            android:background="@drawable/login_box"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#f2f2f2"
+                android:text="Login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:textColor="#f2f2f2"
+                android:textColorHint="#f2f2f2"
+                android:hint="Username"
+                android:padding="10dp"
+                android:background="@drawable/login_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+
+            <EditText
+                android:textColor="#f2f2f2"
+                android:textColorHint="#f2f2f2"
+                android:hint="Password"
+                android:padding="10dp"
+                android:background="@drawable/login_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+
+            <Button
+                android:foreground="?android:selectableItemBackground"
+                android:textColor="#f2f2f2"
+                android:text="log in"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:background="@drawable/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <TextView
+            android:textColor="#f2f2f2"
+            android:textAlignment="center"
+            android:text="Home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textColor="#f2f2f2"
+            android:textAlignment="center"
+            android:text="Copyright © Skrooll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</RelativeLayout>
