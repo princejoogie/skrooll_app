@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/light_gray">
 
     <LinearLayout
+        android:id="@+id/layout_home_search"
         android:layout_alignParentTop="true"
         android:background="@color/white_smoke"
         android:orientation="vertical"
@@ -32,7 +35,7 @@
 
             <LinearLayout
                 android:orientation="horizontal"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
                 <Button
@@ -75,18 +78,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"/>
 
-                <Button
-                    android:foreground="?android:selectableItemBackground"
-                    android:paddingHorizontal="10dp"
-                    android:text="Oncology"
-                    android:background="@color/white_smoke"
-                    android:layout_width="wrap_content"
-                    android:layout_height="20dp"/>
-
             </LinearLayout>
         </HorizontalScrollView>
-
     </LinearLayout>
+
+
 
     <TextView
         android:layout_width="wrap_content"

@@ -1202,6 +1202,7 @@ id italic
 id item_touch_helper_previous_elevation
 id labeled
 id largeLabel
+id layout_home_search
 id left
 id line1
 id line3
@@ -1397,6 +1398,7 @@ layout fragment_account
 layout fragment_cart
 layout fragment_feed
 layout fragment_home
+layout item_layout
 layout login_activity
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
